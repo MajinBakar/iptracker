@@ -76,7 +76,7 @@ const Home = () => {
                 </button>
                 </form>
             </div>
-            <div className='absolute flex flex-col sm:flex-row top-40 w-[90%] sm:w-[95%] lg:w-5/6 sm:h-40 rounded-md bg-slate-50 pt-1 pb-2 sm:py-6 px-5 font-Rubik z-[999] drop-shadow-2xl'>
+            <div className='absolute flex flex-col sm:flex-row top-40 w-[90%] sm:w-[95%] lg:w-5/6 sm:h-40 rounded-md bg-slate-50 py-4 sm:py-6 px-5 font-Rubik z-[999] drop-shadow-2xl'>
                 <div className='sm:w-1/4 pl-0 sm:pl-1 lg:pl-2 pb-1 sm:pb-0 text-center sm:text-start'>
                 <h2 className='font-medium text-xs sm:text-sm text-gray-600'>IP ADDRESS</h2>
                 <p className='md:text-xl xl:text-2xl font-medium sm:pt-3'>{ip}</p>
